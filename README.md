@@ -24,7 +24,7 @@ We will be working with published SnowEx 23 campaign data available from NSIDC. 
 
 ### Existing methods
 
-During the 2023 campaign, a simple ArcGIS online map was constructed to track snow pit progress each data. This prompted the idea for creating a more functional map that could be used to improve data access. https://ucboulder.maps.arcgis.com/apps/mapviewer/index.html?webmap=9273a149145c4f8295f8c2738087b8ea
+During the 2023 campaign, a simple ArcGIS online map was constructed to track snow pit progress each data. This prompted the idea for creating a more functional map that could be used to improve data access. https://arcg.is/0Diiq
 
 ### Proposed methods/tools
 
