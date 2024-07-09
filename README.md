@@ -8,7 +8,7 @@ This project aims to build a map-based tool which will be available on the NSIDC
 
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
-| Jesslyn D. | Crowdsource new ideas for creating a function map-based web tool for cross-referencing SnowEx data  | I can help with understanding project goals and understanding source data  | Project Lead |
+| Jesslyn D. | Crowd source new ideas for creating a functional map-based web tool for cross-referencing SnowEx data  | I can help with understanding project goals and understanding source data  | Project Lead |
 | ... | ... | ... | ... |
 | ... | ... | ... | ... |
 
