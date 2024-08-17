@@ -2,7 +2,7 @@
 
 ## Building a Map-Based Tool for Cross-Referencing SnowEx Data Sets
 
-This project aims to build a map-based tool which will be available on the NSIDC website to help users better find related SnowEx data sets. 
+The purpose of this project is to build a map-based tool for cross-referencing SnowEx data sets. This tool will be accessible from the NSIDC website, and allow users to determine which data sets contain related data (i.e, snow depth) from the same snow pits, without having to download each data set. Goals for the Hackweek include: understanding the data needs of the SnowEx community, determining viable means of building a usable map tool, and creating a functional prototype of the tool.
 
 ### Collaborators
 
@@ -20,7 +20,7 @@ Published SnowEx data sets are currently searchable on the NSIDC website. The da
 
 ### Data
 
-We will be working with published SnowEx 23 campaign data available from NSIDC. https://nsidc.org/data/snowex/data?field_data_set_keyword_value=5
+We will be working with published SnowEx campaign data available from NSIDC. https://nsidc.org/data/snowex/data
 
 ### Existing methods
 
@@ -28,7 +28,7 @@ During the 2023 campaign, a simple ArcGIS online map was constructed to track sn
 
 ### Proposed methods/tools
 
-Prior to the Hackweek, the initial idea for building this tool was to create a more complex and functional ArcGIS map that could be embedded into the NSIDC website. The Hackweek presents the opportunity to crowdsource potentially better options. Can the process be automated? Are there more functional web-based mapping tools available? 
+Prior to the Hackweek, the initial idea for building this tool was to create a more complex and functional ArcGIS map that could be embedded into the NSIDC website. The Hackweek presents the opportunity to crowdsource potentially better options. Can the process be automated? Are there more functional web-based mapping tools available? What would the tool look like? How can we collaborate with the SnowEx Database project team to utilize their exisiting tools?
 
 ## Project goals and tasks
 
@@ -39,9 +39,12 @@ Prior to the Hackweek, the initial idea for building this tool was to create a m
 * Build a small-scale version that can be tested by SnowEx Users and then demonstrated to NSIDC
 * Plan a course of action for after the Hackweek
 
-### Tasks TBD
+### Tasks 
 
-What are the individual tasks or steps that need to be taken to achieve each of the project goals identified above? What are the skills that participants will need or will learn and practice to complete each of these tasks? Think about which tasks are dependent on prior tasks, or which tasks can be performed in parallel.
+* Talk with SnowEx data users about how they currently access data, and how it could be better/easier
+* Explore different mapping tools. ArcGis? Python based tools? 
+* Determine the best means of sourcing geographic data from published SnowEx data sets. Can this be pulled from the database? How can we automate this?
+* Create working model(s) of the tool that can be tested by Hackweek participants
 
 * Task 1 (all team members will learn to use GitHub)
 * Task 2 (team members will use the scikit-learn python library)
