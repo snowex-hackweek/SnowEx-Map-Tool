@@ -41,15 +41,7 @@ Prior to the Hackweek, the initial idea for building this tool was to create a m
 
 ### Tasks 
 
-* Talk with SnowEx data users about how they currently access data, and how it could be better/easier
-* Explore different mapping tools. ArcGis? Python based tools? 
-* Determine the best means of sourcing geographic data from published SnowEx data sets. Can this be pulled from the database? How can we automate this?
-* Create working model(s) of the tool that can be tested by Hackweek participants
-
-* Task 1 (all team members will learn to use GitHub)
-* Task 2 (team members will use the scikit-learn python library)
-  * Task 2a (assigned to team member A)
-  * Task 2b (assigned to team member B)
-* Task 3
-* ...
-
+* Task 1: Talk with SnowEx data users about how they currently access data, and how it could be better/easier
+* Task 2: Explore different mapping tools. ArcGis? Python based tools? 
+* Task 3: Determine the best means of sourcing geographic data from published SnowEx data sets. Can this be pulled from the database? How can we automate this?
+* Task 4: Create working model(s) of the tool that can be tested by Hackweek participants
