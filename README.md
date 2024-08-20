@@ -9,7 +9,7 @@ The purpose of this project is to build a map-based tool for cross-referencing S
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
 | Jesslyn D. | Crowd source new ideas for creating a functional map-based web tool for cross-referencing SnowEx data  | I can help with understanding project goals and understanding source data  | Project Lead |
-| ... | ... | ... | ... |
+| Preetika K. | Learn about geospatial mapping of the SnowEx datasets | Python | Hackweek-Participant-Helper |
 | ... | ... | ... | ... |
 
 ### The problem
