@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a6cf318a8e62916ecb36d9df22a558b8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a6cf318a8e62916ecb36d9df22a558b8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a6cf318a8e62916ecb36d9df22a558b8 = L.map(
+                "map_a6cf318a8e62916ecb36d9df22a558b8",
+                {
+                    center: [39.03872927181818, -108.08755085714284],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3788c6dafa297518e85193837d702deb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3788c6dafa297518e85193837d702deb.addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+            var marker_c181568b6780b3695a0bf1d34f4f4698 = L.marker(
+                [39.03056774, -108.0328052],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_681e8b11580eee3c314f31ae6251e3a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_984bce0043b15210439f3ac59a509a0f = $(`<div id="html_984bce0043b15210439f3ac59a509a0f" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2019-12-19T12:20</div>`)[0];
+                popup_681e8b11580eee3c314f31ae6251e3a0.setContent(html_984bce0043b15210439f3ac59a509a0f);
+            
+        
+
+        marker_c181568b6780b3695a0bf1d34f4f4698.bindPopup(popup_681e8b11580eee3c314f31ae6251e3a0)
+        ;
+
+        
+    
+    
+            var marker_a58463919a561116d574d1ee2d1ea9c2 = L.marker(
+                [39.03056087, -108.0321818],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_826f7802c7847313406cdfbdef50b898 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c92a944bf2067ce30dcc4562ad3cef25 = $(`<div id="html_c92a944bf2067ce30dcc4562ad3cef25" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2019-12-20T10:30</div>`)[0];
+                popup_826f7802c7847313406cdfbdef50b898.setContent(html_c92a944bf2067ce30dcc4562ad3cef25);
+            
+        
+
+        marker_a58463919a561116d574d1ee2d1ea9c2.bindPopup(popup_826f7802c7847313406cdfbdef50b898)
+        ;
+
+        
+    
+    
+            var marker_cfc9f91218b0ebc18573b01cc3c069c6 = L.marker(
+                [39.03052488, -108.0321833],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_13c94587d417e4b84e0ec3176b03015a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41dabe0bc20165b7d4304820380377de = $(`<div id="html_41dabe0bc20165b7d4304820380377de" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-01-22T10:15</div>`)[0];
+                popup_13c94587d417e4b84e0ec3176b03015a.setContent(html_41dabe0bc20165b7d4304820380377de);
+            
+        
+
+        marker_cfc9f91218b0ebc18573b01cc3c069c6.bindPopup(popup_13c94587d417e4b84e0ec3176b03015a)
+        ;
+
+        
+    
+    
+            var marker_f26829323392e34d5f72bd8f47347d00 = L.marker(
+                [39.0305597, -108.0321357],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_ce2cebe2b06c5b21e97bd5c4726d4855 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25d50a7f3e1dc0d20625ac4201a95250 = $(`<div id="html_25d50a7f3e1dc0d20625ac4201a95250" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-01-31T08:30</div>`)[0];
+                popup_ce2cebe2b06c5b21e97bd5c4726d4855.setContent(html_25d50a7f3e1dc0d20625ac4201a95250);
+            
+        
+
+        marker_f26829323392e34d5f72bd8f47347d00.bindPopup(popup_ce2cebe2b06c5b21e97bd5c4726d4855)
+        ;
+
+        
+    
+    
+            var marker_63d81a2c19110ff0cadeb06a7343e1f3 = L.marker(
+                [39.03053417, -108.0321945],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_40d739ddd26c8179147cf83278222545 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aef210164839fce52302e5766ceca691 = $(`<div id="html_aef210164839fce52302e5766ceca691" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-02-12T08:52</div>`)[0];
+                popup_40d739ddd26c8179147cf83278222545.setContent(html_aef210164839fce52302e5766ceca691);
+            
+        
+
+        marker_63d81a2c19110ff0cadeb06a7343e1f3.bindPopup(popup_40d739ddd26c8179147cf83278222545)
+        ;
+
+        
+    
+    
+            var marker_c8b1dbd7d66b84250c3fceeec5aad934 = L.marker(
+                [39.03056987, -108.0321815],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_abceeab853c0782b6c12ece0ca78dd8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f8c38d74d9820f0f0de0408baba72eb = $(`<div id="html_8f8c38d74d9820f0f0de0408baba72eb" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-02-19T09:30</div>`)[0];
+                popup_abceeab853c0782b6c12ece0ca78dd8c.setContent(html_8f8c38d74d9820f0f0de0408baba72eb);
+            
+        
+
+        marker_c8b1dbd7d66b84250c3fceeec5aad934.bindPopup(popup_abceeab853c0782b6c12ece0ca78dd8c)
+        ;
+
+        
+    
+    
+            var marker_e924681d06c5121ffeec10117833bc1b = L.marker(
+                [39.03055187, -108.0321822],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_e979d162d33d6e1f781d6cff05f1ea92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5118acb5b6625b88a977382c918a52f = $(`<div id="html_f5118acb5b6625b88a977382c918a52f" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-02-26T07:15</div>`)[0];
+                popup_e979d162d33d6e1f781d6cff05f1ea92.setContent(html_f5118acb5b6625b88a977382c918a52f);
+            
+        
+
+        marker_e924681d06c5121ffeec10117833bc1b.bindPopup(popup_e979d162d33d6e1f781d6cff05f1ea92)
+        ;
+
+        
+    
+    
+            var marker_37e1a06641206771cf3bf8ea309c48e9 = L.marker(
+                [39.03052488, -108.0321833],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_6533ae33c720da2abe4d936b01f01185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca26226a10882d9b0a2dfe5b7343f246 = $(`<div id="html_ca26226a10882d9b0a2dfe5b7343f246" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-03-04T09:21</div>`)[0];
+                popup_6533ae33c720da2abe4d936b01f01185.setContent(html_ca26226a10882d9b0a2dfe5b7343f246);
+            
+        
+
+        marker_37e1a06641206771cf3bf8ea309c48e9.bindPopup(popup_6533ae33c720da2abe4d936b01f01185)
+        ;
+
+        
+    
+    
+            var marker_c42a8ca74f6e4a033bd58590b5f6efcd = L.marker(
+                [39.030497, -108.0321499],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_b31ef3489ccdd1d2be1e034abb7ad829 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ea9a484bc1b31e41367c156e6b2697f = $(`<div id="html_0ea9a484bc1b31e41367c156e6b2697f" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-03-12T08:50</div>`)[0];
+                popup_b31ef3489ccdd1d2be1e034abb7ad829.setContent(html_0ea9a484bc1b31e41367c156e6b2697f);
+            
+        
+
+        marker_c42a8ca74f6e4a033bd58590b5f6efcd.bindPopup(popup_b31ef3489ccdd1d2be1e034abb7ad829)
+        ;
+
+        
+    
+    
+            var marker_3a9f77d529a9a80164d59470b626ecc0 = L.marker(
+                [39.03044495, -108.0318748],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_93c979039a973d3d52666cfdc2c0e023 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_454712f1ab844ba28330e2a4832a38ce = $(`<div id="html_454712f1ab844ba28330e2a4832a38ce" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-03-18T08:25</div>`)[0];
+                popup_93c979039a973d3d52666cfdc2c0e023.setContent(html_454712f1ab844ba28330e2a4832a38ce);
+            
+        
+
+        marker_3a9f77d529a9a80164d59470b626ecc0.bindPopup(popup_93c979039a973d3d52666cfdc2c0e023)
+        ;
+
+        
+    
+    
+            var marker_200565bf084a06d7116ffb17ad365b74 = L.marker(
+                [39.03048858, -108.0321733],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_fcbf0696d5754df6b26ee29657f8661d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9af8e6211ce810d1787223ff223aba8f = $(`<div id="html_9af8e6211ce810d1787223ff223aba8f" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-03-25T10:15</div>`)[0];
+                popup_fcbf0696d5754df6b26ee29657f8661d.setContent(html_9af8e6211ce810d1787223ff223aba8f);
+            
+        
+
+        marker_200565bf084a06d7116ffb17ad365b74.bindPopup(popup_fcbf0696d5754df6b26ee29657f8661d)
+        ;
+
+        
+    
+    
+            var marker_342bc8c7485f6ee3d414aec2cd12a8c6 = L.marker(
+                [39.03052546, -108.0322064],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_7d03f027664a3d2ed5d201442fd1fce2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b842fbd36a4508aa9bf581db07f571e6 = $(`<div id="html_b842fbd36a4508aa9bf581db07f571e6" style="width: 100.0%; height: 100.0%;">Site: County Line Open<br>Date: 2020-04-17T15:09</div>`)[0];
+                popup_7d03f027664a3d2ed5d201442fd1fce2.setContent(html_b842fbd36a4508aa9bf581db07f571e6);
+            
+        
+
+        marker_342bc8c7485f6ee3d414aec2cd12a8c6.bindPopup(popup_7d03f027664a3d2ed5d201442fd1fce2)
+        ;
+
+        
+    
+    
+            var marker_1dd67ec37af64625aabd0e3ef697f610 = L.marker(
+                [39.03216894, -108.0344824],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_245ba5edbc7024be7b0809ca04e77627 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_236690948e806925dbe6aabf1688a840 = $(`<div id="html_236690948e806925dbe6aabf1688a840" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2019-12-19T14:20</div>`)[0];
+                popup_245ba5edbc7024be7b0809ca04e77627.setContent(html_236690948e806925dbe6aabf1688a840);
+            
+        
+
+        marker_1dd67ec37af64625aabd0e3ef697f610.bindPopup(popup_245ba5edbc7024be7b0809ca04e77627)
+        ;
+
+        
+    
+    
+            var marker_8caa5d9935ba47ddc20a4f7a708b337e = L.marker(
+                [39.03223712, -108.0343293],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_898133ac128c0f208caf66fa44d04e1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80f2dadd87ce7c6aa4ac804ad9fe4ba0 = $(`<div id="html_80f2dadd87ce7c6aa4ac804ad9fe4ba0" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2020-01-22T12:25</div>`)[0];
+                popup_898133ac128c0f208caf66fa44d04e1c.setContent(html_80f2dadd87ce7c6aa4ac804ad9fe4ba0);
+            
+        
+
+        marker_8caa5d9935ba47ddc20a4f7a708b337e.bindPopup(popup_898133ac128c0f208caf66fa44d04e1c)
+        ;
+
+        
+    
+    
+            var marker_fb359f434888d9d44c4e69daa573c99d = L.marker(
+                [39.03223595, -108.0342832],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_b3f200ecd1204bf34c5d0d9e96936672 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_952fed1e5d5148fc0ebdc0e07266625c = $(`<div id="html_952fed1e5d5148fc0ebdc0e07266625c" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2020-01-31T10:16</div>`)[0];
+                popup_b3f200ecd1204bf34c5d0d9e96936672.setContent(html_952fed1e5d5148fc0ebdc0e07266625c);
+            
+        
+
+        marker_fb359f434888d9d44c4e69daa573c99d.bindPopup(popup_b3f200ecd1204bf34c5d0d9e96936672)
+        ;
+
+        
+    
+    
+            var marker_831665add3a69f54dd42d7fc27a39f13 = L.marker(
+                [39.03222724, -108.0342951],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_101f9e0a0fe8b6d604eca1787c842216 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0f07d587c37caa23eb83b6877a9ccda = $(`<div id="html_b0f07d587c37caa23eb83b6877a9ccda" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2020-02-12T10:30</div>`)[0];
+                popup_101f9e0a0fe8b6d604eca1787c842216.setContent(html_b0f07d587c37caa23eb83b6877a9ccda);
+            
+        
+
+        marker_831665add3a69f54dd42d7fc27a39f13.bindPopup(popup_101f9e0a0fe8b6d604eca1787c842216)
+        ;
+
+        
+    
+    
+            var marker_863e86bab6beb53156816d8a6d4063f8 = L.marker(
+                [39.03221736, -108.0342609],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_28a64c3b1451785d9e11d5e1e818869e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_584ada4a0f5f26e6e5c25b32e8986394 = $(`<div id="html_584ada4a0f5f26e6e5c25b32e8986394" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2020-02-19T11:15</div>`)[0];
+                popup_28a64c3b1451785d9e11d5e1e818869e.setContent(html_584ada4a0f5f26e6e5c25b32e8986394);
+            
+        
+
+        marker_863e86bab6beb53156816d8a6d4063f8.bindPopup(popup_28a64c3b1451785d9e11d5e1e818869e)
+        ;
+
+        
+    
+    
+            var marker_a044e6f8d962522a192b76fcbbcbfcbc = L.marker(
+                [39.03222665, -108.034272],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_8ca638d30791639684f4cb7e1f55acc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a33d421e1b949da20c7a74b4f1c8d1a = $(`<div id="html_5a33d421e1b949da20c7a74b4f1c8d1a" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2020-02-26T08:55</div>`)[0];
+                popup_8ca638d30791639684f4cb7e1f55acc7.setContent(html_5a33d421e1b949da20c7a74b4f1c8d1a);
+            
+        
+
+        marker_a044e6f8d962522a192b76fcbbcbfcbc.bindPopup(popup_8ca638d30791639684f4cb7e1f55acc7)
+        ;
+
+        
+    
+    
+            var marker_e94ea4bdde94a3b4dfc5f9f6f82fa298 = L.marker(
+                [39.03223712, -108.0343293],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_2067e21becce89c6dd1bd1e43fc4c9ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c073e9cb7cd9ef5763e766a246334bc7 = $(`<div id="html_c073e9cb7cd9ef5763e766a246334bc7" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2020-03-04T12:52</div>`)[0];
+                popup_2067e21becce89c6dd1bd1e43fc4c9ec.setContent(html_c073e9cb7cd9ef5763e766a246334bc7);
+            
+        
+
+        marker_e94ea4bdde94a3b4dfc5f9f6f82fa298.bindPopup(popup_2067e21becce89c6dd1bd1e43fc4c9ec)
+        ;
+
+        
+    
+    
+            var marker_27e6ad9f7326a6b9d4ecb8f9b6eb829d = L.marker(
+                [39.03225688, -108.0343978],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_a9245b2521a9eaf536942c4840b2c247 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e206d41c0c9d6137bf06fd7b93997170 = $(`<div id="html_e206d41c0c9d6137bf06fd7b93997170" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2020-03-12T10:30</div>`)[0];
+                popup_a9245b2521a9eaf536942c4840b2c247.setContent(html_e206d41c0c9d6137bf06fd7b93997170);
+            
+        
+
+        marker_27e6ad9f7326a6b9d4ecb8f9b6eb829d.bindPopup(popup_a9245b2521a9eaf536942c4840b2c247)
+        ;
+
+        
+    
+    
+            var marker_0529c0f670c5dc721291facc94dc13d3 = L.marker(
+                [39.03225287, -108.0345943],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_62c9cc1608dc03d996fa0e97cb343cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c00fdf6949727966e25974f69bb9c8b = $(`<div id="html_2c00fdf6949727966e25974f69bb9c8b" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2020-03-18T10:05</div>`)[0];
+                popup_62c9cc1608dc03d996fa0e97cb343cd4.setContent(html_2c00fdf6949727966e25974f69bb9c8b);
+            
+        
+
+        marker_0529c0f670c5dc721291facc94dc13d3.bindPopup(popup_62c9cc1608dc03d996fa0e97cb343cd4)
+        ;
+
+        
+    
+    
+            var marker_d69a0ae1aac252b34e2cfe5a04e49a28 = L.marker(
+                [39.03220788, -108.0345962],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_ea6919a4e627d3a204ca5a9a7a9f267d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_746d7f1555349615d6e40fc9d3c27a3b = $(`<div id="html_746d7f1555349615d6e40fc9d3c27a3b" style="width: 100.0%; height: 100.0%;">Site: County Line Tree<br>Date: 2020-03-25T12:30</div>`)[0];
+                popup_ea6919a4e627d3a204ca5a9a7a9f267d.setContent(html_746d7f1555349615d6e40fc9d3c27a3b);
+            
+        
+
+        marker_d69a0ae1aac252b34e2cfe5a04e49a28.bindPopup(popup_ea6919a4e627d3a204ca5a9a7a9f267d)
+        ;
+
+        
+    
+    
+            var marker_4cbc3c97d03e94bf0db2397432101eb4 = L.marker(
+                [39.03417608, -108.2148014],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_a3ccf613a5e2ea7f4a23ee7f6a99e00b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83253aff332e3cb36d9cdbf5cb6297ba = $(`<div id="html_83253aff332e3cb36d9cdbf5cb6297ba" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-03-05T08:09</div>`)[0];
+                popup_a3ccf613a5e2ea7f4a23ee7f6a99e00b.setContent(html_83253aff332e3cb36d9cdbf5cb6297ba);
+            
+        
+
+        marker_4cbc3c97d03e94bf0db2397432101eb4.bindPopup(popup_a3ccf613a5e2ea7f4a23ee7f6a99e00b)
+        ;
+
+        
+    
+    
+            var marker_12e0df42dc793fe22da43b1decbd7945 = L.marker(
+                [39.0343241, -108.2134557],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_7ba542fc92c892d148f4031404a13ae9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b7970a32bd8504e1e2aeeeb42a07bf8 = $(`<div id="html_6b7970a32bd8504e1e2aeeeb42a07bf8" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-03-16T08:41</div>`)[0];
+                popup_7ba542fc92c892d148f4031404a13ae9.setContent(html_6b7970a32bd8504e1e2aeeeb42a07bf8);
+            
+        
+
+        marker_12e0df42dc793fe22da43b1decbd7945.bindPopup(popup_7ba542fc92c892d148f4031404a13ae9)
+        ;
+
+        
+    
+    
+            var marker_497b13ee79c6ccf3f3baada74bd9e79d = L.marker(
+                [39.03414073, -108.2121922],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_6ba1d10f5751fc9f724a4c50b162fd81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dedc9093bdcbb36067394461d7201af5 = $(`<div id="html_dedc9093bdcbb36067394461d7201af5" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-03-16T13:58</div>`)[0];
+                popup_6ba1d10f5751fc9f724a4c50b162fd81.setContent(html_dedc9093bdcbb36067394461d7201af5);
+            
+        
+
+        marker_497b13ee79c6ccf3f3baada74bd9e79d.bindPopup(popup_6ba1d10f5751fc9f724a4c50b162fd81)
+        ;
+
+        
+    
+    
+            var marker_e99e250c6a57818f141d1b15922b0786 = L.marker(
+                [39.03449845, -108.2147194],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_cdded7be03ad5382ae143e6d68ba2e62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29d880018fed579041c35bc647cb4c9d = $(`<div id="html_29d880018fed579041c35bc647cb4c9d" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-03-16T15:19</div>`)[0];
+                popup_cdded7be03ad5382ae143e6d68ba2e62.setContent(html_29d880018fed579041c35bc647cb4c9d);
+            
+        
+
+        marker_e99e250c6a57818f141d1b15922b0786.bindPopup(popup_cdded7be03ad5382ae143e6d68ba2e62)
+        ;
+
+        
+    
+    
+            var marker_5010febf80596eac861a2744ea7fe659 = L.marker(
+                [39.03362657, -108.2140491],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_518fe9786305d014e208df7d2fc6f6f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eb5025c99e0a8a088588a5a90efe8cf = $(`<div id="html_1eb5025c99e0a8a088588a5a90efe8cf" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-03-31T09:34</div>`)[0];
+                popup_518fe9786305d014e208df7d2fc6f6f5.setContent(html_1eb5025c99e0a8a088588a5a90efe8cf);
+            
+        
+
+        marker_5010febf80596eac861a2744ea7fe659.bindPopup(popup_518fe9786305d014e208df7d2fc6f6f5)
+        ;
+
+        
+    
+    
+            var marker_af7b6c302683d95468ab5437c9a6b163 = L.marker(
+                [39.0336983, -108.2140347],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_d6b9ccad3a860fb5ba28336482e0c5f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a872966979f58a474772870a7f86619 = $(`<div id="html_7a872966979f58a474772870a7f86619" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-03-31T15:30</div>`)[0];
+                popup_d6b9ccad3a860fb5ba28336482e0c5f9.setContent(html_7a872966979f58a474772870a7f86619);
+            
+        
+
+        marker_af7b6c302683d95468ab5437c9a6b163.bindPopup(popup_d6b9ccad3a860fb5ba28336482e0c5f9)
+        ;
+
+        
+    
+    
+            var marker_5203710ac06a525bef7b8e23e8d09841 = L.marker(
+                [39.03396445, -108.2138625],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_6290186910e75af49f35f9795632b565 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a042b9b5b4c253e3f3220534979279c3 = $(`<div id="html_a042b9b5b4c253e3f3220534979279c3" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-04-08T15:51</div>`)[0];
+                popup_6290186910e75af49f35f9795632b565.setContent(html_a042b9b5b4c253e3f3220534979279c3);
+            
+        
+
+        marker_5203710ac06a525bef7b8e23e8d09841.bindPopup(popup_6290186910e75af49f35f9795632b565)
+        ;
+
+        
+    
+    
+            var marker_5d970cf1e96aed5e0022b8cbe2d4c8b1 = L.marker(
+                [39.03381144, -108.2138685],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_bf3568a59d562879560a9a4d39ee52c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8e6ab00b4e843f0105ae7e817dd2005 = $(`<div id="html_a8e6ab00b4e843f0105ae7e817dd2005" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-04-09T05:50</div>`)[0];
+                popup_bf3568a59d562879560a9a4d39ee52c6.setContent(html_a8e6ab00b4e843f0105ae7e817dd2005);
+            
+        
+
+        marker_5d970cf1e96aed5e0022b8cbe2d4c8b1.bindPopup(popup_bf3568a59d562879560a9a4d39ee52c6)
+        ;
+
+        
+    
+    
+            var marker_b6325dc3805019085237e29ce49d5755 = L.marker(
+                [39.03372613, -108.2140683],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_969bd545554175998edf070aa46c041c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6eb0dfd41ffba99c46ed545a12af849 = $(`<div id="html_e6eb0dfd41ffba99c46ed545a12af849" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-04-09T12:18</div>`)[0];
+                popup_969bd545554175998edf070aa46c041c.setContent(html_e6eb0dfd41ffba99c46ed545a12af849);
+            
+        
+
+        marker_b6325dc3805019085237e29ce49d5755.bindPopup(popup_969bd545554175998edf070aa46c041c)
+        ;
+
+        
+    
+    
+            var marker_2c6025009b4582969fb8087625a6161f = L.marker(
+                [39.03398328, -108.2138964],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_1273bd07531ef6e5a79238ac33e5c210 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9d88bf70b37a6555800f3e3e5ee0062 = $(`<div id="html_c9d88bf70b37a6555800f3e3e5ee0062" style="width: 100.0%; height: 100.0%;">Site: Mesa West Open<br>Date: 2020-04-09T16:15</div>`)[0];
+                popup_1273bd07531ef6e5a79238ac33e5c210.setContent(html_c9d88bf70b37a6555800f3e3e5ee0062);
+            
+        
+
+        marker_2c6025009b4582969fb8087625a6161f.bindPopup(popup_1273bd07531ef6e5a79238ac33e5c210)
+        ;
+
+        
+    
+    
+            var marker_ae1e79857a75d15e65fb93af29227e31 = L.marker(
+                [39.0331436, -108.2123123],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_116e606d9257aaf6123ea84f80c9b8ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e950aeac4ffdcc7699ed3f2233ca8ef = $(`<div id="html_3e950aeac4ffdcc7699ed3f2233ca8ef" style="width: 100.0%; height: 100.0%;">Site: Mesa West Trees<br>Date: 2020-03-05T09:35</div>`)[0];
+                popup_116e606d9257aaf6123ea84f80c9b8ed.setContent(html_3e950aeac4ffdcc7699ed3f2233ca8ef);
+            
+        
+
+        marker_ae1e79857a75d15e65fb93af29227e31.bindPopup(popup_116e606d9257aaf6123ea84f80c9b8ed)
+        ;
+
+        
+    
+    
+            var marker_437796ad0cd2efaed72132335cf78c0b = L.marker(
+                [39.03355371, -108.2110025],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_089b02eda221940603a903e18de1335b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c78b3da43dc06a35d57e9d755325f9b3 = $(`<div id="html_c78b3da43dc06a35d57e9d755325f9b3" style="width: 100.0%; height: 100.0%;">Site: Mesa West Trees<br>Date: 2020-03-16T10:50</div>`)[0];
+                popup_089b02eda221940603a903e18de1335b.setContent(html_c78b3da43dc06a35d57e9d755325f9b3);
+            
+        
+
+        marker_437796ad0cd2efaed72132335cf78c0b.bindPopup(popup_089b02eda221940603a903e18de1335b)
+        ;
+
+        
+    
+    
+            var marker_606458ce41046d71ec9931f5e7faf863 = L.marker(
+                [39.03332422, -108.2115775],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_a45554dc60417dd5033d907ed22886ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dd40d928c1f7f29a682b6942d265b68 = $(`<div id="html_5dd40d928c1f7f29a682b6942d265b68" style="width: 100.0%; height: 100.0%;">Site: Mesa West Trees<br>Date: 2020-03-16T12:28</div>`)[0];
+                popup_a45554dc60417dd5033d907ed22886ca.setContent(html_5dd40d928c1f7f29a682b6942d265b68);
+            
+        
+
+        marker_606458ce41046d71ec9931f5e7faf863.bindPopup(popup_a45554dc60417dd5033d907ed22886ca)
+        ;
+
+        
+    
+    
+            var marker_27cce9b15e11188ee6eff06fe5f8d097 = L.marker(
+                [39.03255284, -108.2143569],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_9570002a989092c0790441c15fd2b9cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc725476dd6cf4516fced3290b42580a = $(`<div id="html_cc725476dd6cf4516fced3290b42580a" style="width: 100.0%; height: 100.0%;">Site: Mesa West Trees<br>Date: 2020-03-31T11:45</div>`)[0];
+                popup_9570002a989092c0790441c15fd2b9cc.setContent(html_cc725476dd6cf4516fced3290b42580a);
+            
+        
+
+        marker_27cce9b15e11188ee6eff06fe5f8d097.bindPopup(popup_9570002a989092c0790441c15fd2b9cc)
+        ;
+
+        
+    
+    
+            var marker_3e15f24b0420cf84120234beadeb5c5e = L.marker(
+                [39.03245528, -108.2136677],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_0e7c782f2da8eb7d67a3ac326cce34ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be2f657408e4379d33f497adb6b45a60 = $(`<div id="html_be2f657408e4379d33f497adb6b45a60" style="width: 100.0%; height: 100.0%;">Site: Mesa West Trees<br>Date: 2020-03-31T13:10</div>`)[0];
+                popup_0e7c782f2da8eb7d67a3ac326cce34ea.setContent(html_be2f657408e4379d33f497adb6b45a60);
+            
+        
+
+        marker_3e15f24b0420cf84120234beadeb5c5e.bindPopup(popup_0e7c782f2da8eb7d67a3ac326cce34ea)
+        ;
+
+        
+    
+    
+            var marker_63d2eb15b6d453941d336d122022f556 = L.marker(
+                [39.03237621, -108.2137517],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_88bae76a531a6830a6313c009451b32d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_289f12f262f04db6247c2ffe0e5f1427 = $(`<div id="html_289f12f262f04db6247c2ffe0e5f1427" style="width: 100.0%; height: 100.0%;">Site: Mesa West Trees<br>Date: 2020-04-09T07:25</div>`)[0];
+                popup_88bae76a531a6830a6313c009451b32d.setContent(html_289f12f262f04db6247c2ffe0e5f1427);
+            
+        
+
+        marker_63d2eb15b6d453941d336d122022f556.bindPopup(popup_88bae76a531a6830a6313c009451b32d)
+        ;
+
+        
+    
+    
+            var marker_6189c2f0719e311670707eb2b51e1ef0 = L.marker(
+                [39.03236665, -108.2137289],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_b2c345e02f3aadaaafc0cf58975d2a7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff108be6a389277750ef33b22a2d71e3 = $(`<div id="html_ff108be6a389277750ef33b22a2d71e3" style="width: 100.0%; height: 100.0%;">Site: Mesa West Trees<br>Date: 2020-04-09T14:40</div>`)[0];
+                popup_b2c345e02f3aadaaafc0cf58975d2a7c.setContent(html_ff108be6a389277750ef33b22a2d71e3);
+            
+        
+
+        marker_6189c2f0719e311670707eb2b51e1ef0.bindPopup(popup_b2c345e02f3aadaaafc0cf58975d2a7c)
+        ;
+
+        
+    
+    
+            var marker_8d1307d841bc02cb3a42ef7333cc1773 = L.marker(
+                [39.04418112, -108.062006],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_5e2efd6a21d28c5a29d5096703d8a7cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bc0cefdd12ff592eb43d6d2eef6ba3c = $(`<div id="html_1bc0cefdd12ff592eb43d6d2eef6ba3c" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2019-12-19T16:00</div>`)[0];
+                popup_5e2efd6a21d28c5a29d5096703d8a7cb.setContent(html_1bc0cefdd12ff592eb43d6d2eef6ba3c);
+            
+        
+
+        marker_8d1307d841bc02cb3a42ef7333cc1773.bindPopup(popup_5e2efd6a21d28c5a29d5096703d8a7cb)
+        ;
+
+        
+    
+    
+            var marker_392f824c9440f30fea01c54c4337f7d3 = L.marker(
+                [39.04417241, -108.0620179],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_98375157875a5ffe1f4625a765afc405 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe25cf577aa7208e802ff01a1a6818a6 = $(`<div id="html_fe25cf577aa7208e802ff01a1a6818a6" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-01-22T14:55</div>`)[0];
+                popup_98375157875a5ffe1f4625a765afc405.setContent(html_fe25cf577aa7208e802ff01a1a6818a6);
+            
+        
+
+        marker_392f824c9440f30fea01c54c4337f7d3.bindPopup(popup_98375157875a5ffe1f4625a765afc405)
+        ;
+
+        
+    
+    
+            var marker_53daeffd4c779108e22dad1be44436e8 = L.marker(
+                [39.044083, -108.0620447],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_27225204fbbb60357495bdf2a644cd66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_514b3b8c0a721a3a0aa89743ec956e3d = $(`<div id="html_514b3b8c0a721a3a0aa89743ec956e3d" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-01-31T12:25</div>`)[0];
+                popup_27225204fbbb60357495bdf2a644cd66.setContent(html_514b3b8c0a721a3a0aa89743ec956e3d);
+            
+        
+
+        marker_53daeffd4c779108e22dad1be44436e8.bindPopup(popup_27225204fbbb60357495bdf2a644cd66)
+        ;
+
+        
+    
+    
+            var marker_49b82530b42946ad3cf7cb0dec85c20d = L.marker(
+                [39.04415441, -108.0620186],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_a519f797ab9f6e6389af0174b25ffbd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_facc680c8b51e0326c4a8ad307613b73 = $(`<div id="html_facc680c8b51e0326c4a8ad307613b73" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-02-12T12:52</div>`)[0];
+                popup_a519f797ab9f6e6389af0174b25ffbd8.setContent(html_facc680c8b51e0326c4a8ad307613b73);
+            
+        
+
+        marker_49b82530b42946ad3cf7cb0dec85c20d.bindPopup(popup_a519f797ab9f6e6389af0174b25ffbd8)
+        ;
+
+        
+    
+    
+            var marker_7656c9356bf353348b518467dc3e049c = L.marker(
+                [39.04417329, -108.0620525],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_3966e2793654c6229dc857432fe469ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6bf14e7285c093a68cb35c0ba173ab9 = $(`<div id="html_c6bf14e7285c093a68cb35c0ba173ab9" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-02-19T13:40</div>`)[0];
+                popup_3966e2793654c6229dc857432fe469ff.setContent(html_c6bf14e7285c093a68cb35c0ba173ab9);
+            
+        
+
+        marker_7656c9356bf353348b518467dc3e049c.bindPopup(popup_3966e2793654c6229dc857432fe469ff)
+        ;
+
+        
+    
+    
+            var marker_d263421aa96044b796035bfe824bac90 = L.marker(
+                [39.04417067, -108.0619486],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_7f5b00420549b1cd06c96d904a1fe5ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7871845a8598db50be09e3521761e888 = $(`<div id="html_7871845a8598db50be09e3521761e888" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-02-25T15:00</div>`)[0];
+                popup_7f5b00420549b1cd06c96d904a1fe5ee.setContent(html_7871845a8598db50be09e3521761e888);
+            
+        
+
+        marker_d263421aa96044b796035bfe824bac90.bindPopup(popup_7f5b00420549b1cd06c96d904a1fe5ee)
+        ;
+
+        
+    
+    
+            var marker_948d6e45c1ef226ef4b9c1339c56891b = L.marker(
+                [39.04417329, -108.0620525],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_1b43cba6119ca8843f47ffe95fc0076e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_107d7f950aefc6092612facebca74cb7 = $(`<div id="html_107d7f950aefc6092612facebca74cb7" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-03-04T15:50</div>`)[0];
+                popup_1b43cba6119ca8843f47ffe95fc0076e.setContent(html_107d7f950aefc6092612facebca74cb7);
+            
+        
+
+        marker_948d6e45c1ef226ef4b9c1339c56891b.bindPopup(popup_1b43cba6119ca8843f47ffe95fc0076e)
+        ;
+
+        
+    
+    
+            var marker_a8297cf6fe52afb1ac72407f46038333 = L.marker(
+                [39.04306821, -108.0646745],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_1ef6e9a4a405f8bc5f1c82396e8096a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d53269a63e67aac9739f412f64f84051 = $(`<div id="html_d53269a63e67aac9739f412f64f84051" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-03-06T17:05</div>`)[0];
+                popup_1ef6e9a4a405f8bc5f1c82396e8096a7.setContent(html_d53269a63e67aac9739f412f64f84051);
+            
+        
+
+        marker_a8297cf6fe52afb1ac72407f46038333.bindPopup(popup_1ef6e9a4a405f8bc5f1c82396e8096a7)
+        ;
+
+        
+    
+    
+            var marker_eb6541055462256e81b2ea9a9e0cbf3a = L.marker(
+                [39.0441637, -108.0620298],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_9e44f6d6a0f10b8beff3792af2d03053 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31c98792da0f26a6d505d0a02171b669 = $(`<div id="html_31c98792da0f26a6d505d0a02171b669" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-03-12T15:20</div>`)[0];
+                popup_9e44f6d6a0f10b8beff3792af2d03053.setContent(html_31c98792da0f26a6d505d0a02171b669);
+            
+        
+
+        marker_eb6541055462256e81b2ea9a9e0cbf3a.bindPopup(popup_9e44f6d6a0f10b8beff3792af2d03053)
+        ;
+
+        
+    
+    
+            var marker_ac951c3522af7ab9e09a93e83aa2d9c3 = L.marker(
+                [39.04492024, -108.0620215],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_b6b86666467f19046676e957e5c036b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_199db1bd3d7d3db209327235564ac250 = $(`<div id="html_199db1bd3d7d3db209327235564ac250" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-03-21T10:06</div>`)[0];
+                popup_b6b86666467f19046676e957e5c036b7.setContent(html_199db1bd3d7d3db209327235564ac250);
+            
+        
+
+        marker_ac951c3522af7ab9e09a93e83aa2d9c3.bindPopup(popup_b6b86666467f19046676e957e5c036b7)
+        ;
+
+        
+    
+    
+            var marker_f1e82ef3ac1d697ab1750900124133f8 = L.marker(
+                [39.05095533, -108.0612745],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_52d2d60d6d4a5b304e7d84f0f928a938 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b87d062a45e596428dc1717c85c48c8 = $(`<div id="html_3b87d062a45e596428dc1717c85c48c8" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-03-28T09:00</div>`)[0];
+                popup_52d2d60d6d4a5b304e7d84f0f928a938.setContent(html_3b87d062a45e596428dc1717c85c48c8);
+            
+        
+
+        marker_f1e82ef3ac1d697ab1750900124133f8.bindPopup(popup_52d2d60d6d4a5b304e7d84f0f928a938)
+        ;
+
+        
+    
+    
+            var marker_a3e343ed2c1cbac49a563447658268a7 = L.marker(
+                [39.04411783, -108.061997],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_e05a9916b2bbfe807c149068a6466568 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c04ea5d10d08222fbccdf90223dc1c4 = $(`<div id="html_7c04ea5d10d08222fbccdf90223dc1c4" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-03-28T16:30</div>`)[0];
+                popup_e05a9916b2bbfe807c149068a6466568.setContent(html_7c04ea5d10d08222fbccdf90223dc1c4);
+            
+        
+
+        marker_a3e343ed2c1cbac49a563447658268a7.bindPopup(popup_e05a9916b2bbfe807c149068a6466568)
+        ;
+
+        
+    
+    
+            var marker_2a99aa693b57021eaf9f496360d5c340 = L.marker(
+                [39.05089349, -108.0613233],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_16e12567a480f495590332466eb3d6d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06f73ea34c2a9e9d0da39eae0dc84e2b = $(`<div id="html_06f73ea34c2a9e9d0da39eae0dc84e2b" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-04-06T06:50</div>`)[0];
+                popup_16e12567a480f495590332466eb3d6d1.setContent(html_06f73ea34c2a9e9d0da39eae0dc84e2b);
+            
+        
+
+        marker_2a99aa693b57021eaf9f496360d5c340.bindPopup(popup_16e12567a480f495590332466eb3d6d1)
+        ;
+
+        
+    
+    
+            var marker_88755cb01ff5c7ca3696e1cc11ee685f = L.marker(
+                [39.05092891, -108.0612987],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_c4fb775fea94c846d1a0da3fd85d53f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a59619c42fec78f58f362078fd29518e = $(`<div id="html_a59619c42fec78f58f362078fd29518e" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-04-06T16:00</div>`)[0];
+                popup_c4fb775fea94c846d1a0da3fd85d53f1.setContent(html_a59619c42fec78f58f362078fd29518e);
+            
+        
+
+        marker_88755cb01ff5c7ca3696e1cc11ee685f.bindPopup(popup_c4fb775fea94c846d1a0da3fd85d53f1)
+        ;
+
+        
+    
+    
+            var marker_b9b86add7a3817265292aff54ee0dd25 = L.marker(
+                [39.04410447, -108.0618243],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_4b6d3fec00d9feda0fcc0012f102354a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e632a82736f274e580a96b29556c05a7 = $(`<div id="html_e632a82736f274e580a96b29556c05a7" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-04-19T16:00</div>`)[0];
+                popup_4b6d3fec00d9feda0fcc0012f102354a.setContent(html_e632a82736f274e580a96b29556c05a7);
+            
+        
+
+        marker_b9b86add7a3817265292aff54ee0dd25.bindPopup(popup_4b6d3fec00d9feda0fcc0012f102354a)
+        ;
+
+        
+    
+    
+            var marker_538a3dbe1515c3539fa5516aba510c74 = L.marker(
+                [39.04400492, -108.0621635],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_58cc7556b888ac41a63b5bec826610fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbce1fa52c2514b8543ed7218244316f = $(`<div id="html_fbce1fa52c2514b8543ed7218244316f" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-04-21T05:53</div>`)[0];
+                popup_58cc7556b888ac41a63b5bec826610fd.setContent(html_fbce1fa52c2514b8543ed7218244316f);
+            
+        
+
+        marker_538a3dbe1515c3539fa5516aba510c74.bindPopup(popup_58cc7556b888ac41a63b5bec826610fd)
+        ;
+
+        
+    
+    
+            var marker_67ac1936f32d1097a1d80f6187181c15 = L.marker(
+                [39.04404091, -108.062162],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_0e43cb55fe7b51d61abd7f1d37f8e540 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a9f233f7c49ca97fb6b75388516c4d8 = $(`<div id="html_4a9f233f7c49ca97fb6b75388516c4d8" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-04-21T16:26</div>`)[0];
+                popup_0e43cb55fe7b51d61abd7f1d37f8e540.setContent(html_4a9f233f7c49ca97fb6b75388516c4d8);
+            
+        
+
+        marker_67ac1936f32d1097a1d80f6187181c15.bindPopup(popup_0e43cb55fe7b51d61abd7f1d37f8e540)
+        ;
+
+        
+    
+    
+            var marker_2c74bd935a162b25dcd2cb714496584e = L.marker(
+                [39.04404295, -108.0622427],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_17eb09afaeb5a90735b5ae8ad57d52ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08e768dfd34d54022cedc5b730fc55a8 = $(`<div id="html_08e768dfd34d54022cedc5b730fc55a8" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-04-22T15:12</div>`)[0];
+                popup_17eb09afaeb5a90735b5ae8ad57d52ce.setContent(html_08e768dfd34d54022cedc5b730fc55a8);
+            
+        
+
+        marker_2c74bd935a162b25dcd2cb714496584e.bindPopup(popup_17eb09afaeb5a90735b5ae8ad57d52ce)
+        ;
+
+        
+    
+    
+            var marker_7f5c2877f58753440d12aaaa917d1544 = L.marker(
+                [39.04391058, -108.0623522],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_29e3697113ee9b67b98b75e660c65d1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29628ee9ccdd6e5d9859dd9b1a722bab = $(`<div id="html_29628ee9ccdd6e5d9859dd9b1a722bab" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-05-03T06:02</div>`)[0];
+                popup_29e3697113ee9b67b98b75e660c65d1f.setContent(html_29628ee9ccdd6e5d9859dd9b1a722bab);
+            
+        
+
+        marker_7f5c2877f58753440d12aaaa917d1544.bindPopup(popup_29e3697113ee9b67b98b75e660c65d1f)
+        ;
+
+        
+    
+    
+            var marker_489c17b042e357bbac7b5894763339e8 = L.marker(
+                [39.04394657, -108.0623507],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_958a3911c67e327463f4fa238b44cde9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_767a1fe1d15e874aab9800f8ef6cb8eb = $(`<div id="html_767a1fe1d15e874aab9800f8ef6cb8eb" style="width: 100.0%; height: 100.0%;">Site: Skyway Open<br>Date: 2020-05-03T16:10</div>`)[0];
+                popup_958a3911c67e327463f4fa238b44cde9.setContent(html_767a1fe1d15e874aab9800f8ef6cb8eb);
+            
+        
+
+        marker_489c17b042e357bbac7b5894763339e8.bindPopup(popup_958a3911c67e327463f4fa238b44cde9)
+        ;
+
+        
+    
+    
+            var marker_a3c45fd4b9a17c00db1f9f8a6eee8ad7 = L.marker(
+                [39.04495803, -108.0631637],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_054d7a4d07ed00cb60c29f02e4a77c7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3993b2279c5f0b5efe24af724e7ff9e5 = $(`<div id="html_3993b2279c5f0b5efe24af724e7ff9e5" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-01-22T16:55</div>`)[0];
+                popup_054d7a4d07ed00cb60c29f02e4a77c7e.setContent(html_3993b2279c5f0b5efe24af724e7ff9e5);
+            
+        
+
+        marker_a3c45fd4b9a17c00db1f9f8a6eee8ad7.bindPopup(popup_054d7a4d07ed00cb60c29f02e4a77c7e)
+        ;
+
+        
+    
+    
+            var marker_a4dca811ec10e606e6940691097dd083 = L.marker(
+                [39.04492087, -108.063119],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_dfdc126f37264cbc45b0a179851debc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e125c2c6f33b4e873d4aba131e50ed12 = $(`<div id="html_e125c2c6f33b4e873d4aba131e50ed12" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-01-31T14:23</div>`)[0];
+                popup_dfdc126f37264cbc45b0a179851debc9.setContent(html_e125c2c6f33b4e873d4aba131e50ed12);
+            
+        
+
+        marker_a4dca811ec10e606e6940691097dd083.bindPopup(popup_dfdc126f37264cbc45b0a179851debc9)
+        ;
+
+        
+    
+    
+            var marker_ff437017920e98251e16abea023c27c0 = L.marker(
+                [39.04492, -108.0630844],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_d6d4fef3d9f75c2d4ce8e1c8f91e48f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55789bfd6a7187d0070bf4838623aac8 = $(`<div id="html_55789bfd6a7187d0070bf4838623aac8" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-02-12T14:30</div>`)[0];
+                popup_d6d4fef3d9f75c2d4ce8e1c8f91e48f2.setContent(html_55789bfd6a7187d0070bf4838623aac8);
+            
+        
+
+        marker_ff437017920e98251e16abea023c27c0.bindPopup(popup_d6d4fef3d9f75c2d4ce8e1c8f91e48f2)
+        ;
+
+        
+    
+    
+            var marker_b2d69305f2aadbeaf4c401502c30f85e = L.marker(
+                [39.04493945, -108.0631413],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_f8d3a331951cbd6d9d10292f60218ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3394c3be0a5f4ea174a322488a523cbf = $(`<div id="html_3394c3be0a5f4ea174a322488a523cbf" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-02-19T15:00</div>`)[0];
+                popup_f8d3a331951cbd6d9d10292f60218ca1.setContent(html_3394c3be0a5f4ea174a322488a523cbf);
+            
+        
+
+        marker_b2d69305f2aadbeaf4c401502c30f85e.bindPopup(popup_f8d3a331951cbd6d9d10292f60218ca1)
+        ;
+
+        
+    
+    
+            var marker_79c277b51292af76bd87849e0babfb56 = L.marker(
+                [39.04493945, -108.0631413],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_b8239975b81827709d606a8cc4413005 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99bac60ddda9a06a025609472fd8622a = $(`<div id="html_99bac60ddda9a06a025609472fd8622a" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-02-25T16:40</div>`)[0];
+                popup_b8239975b81827709d606a8cc4413005.setContent(html_99bac60ddda9a06a025609472fd8622a);
+            
+        
+
+        marker_79c277b51292af76bd87849e0babfb56.bindPopup(popup_b8239975b81827709d606a8cc4413005)
+        ;
+
+        
+    
+    
+            var marker_c88d273b197890e0613b4376369c87f9 = L.marker(
+                [39.04289665, -108.0650166],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_3d1c6101dcce04c4b61aa405245fc7b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_312053f31e7d68c548c09037979339ec = $(`<div id="html_312053f31e7d68c548c09037979339ec" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-03-06T18:15</div>`)[0];
+                popup_3d1c6101dcce04c4b61aa405245fc7b1.setContent(html_312053f31e7d68c548c09037979339ec);
+            
+        
+
+        marker_c88d273b197890e0613b4376369c87f9.bindPopup(popup_3d1c6101dcce04c4b61aa405245fc7b1)
+        ;
+
+        
+    
+    
+            var marker_9032c82cdce409f8e2e74a4013ee28df = L.marker(
+                [39.04495658, -108.063106],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_6d4b952deb51ecd249f3c9b0722abda3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fc244457d61fe51c495362176b1b01e = $(`<div id="html_3fc244457d61fe51c495362176b1b01e" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-03-12T13:45</div>`)[0];
+                popup_6d4b952deb51ecd249f3c9b0722abda3.setContent(html_3fc244457d61fe51c495362176b1b01e);
+            
+        
+
+        marker_9032c82cdce409f8e2e74a4013ee28df.bindPopup(popup_6d4b952deb51ecd249f3c9b0722abda3)
+        ;
+
+        
+    
+    
+            var marker_6eef638835bd7aa70246ac0515d81e70 = L.marker(
+                [39.04493831, -108.0634533],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_79da479f5d7ba0edf2458793d47eb884 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d496394f586965f27d03830be4ccf78b = $(`<div id="html_d496394f586965f27d03830be4ccf78b" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-03-21T11:55</div>`)[0];
+                popup_79da479f5d7ba0edf2458793d47eb884.setContent(html_d496394f586965f27d03830be4ccf78b);
+            
+        
+
+        marker_6eef638835bd7aa70246ac0515d81e70.bindPopup(popup_79da479f5d7ba0edf2458793d47eb884)
+        ;
+
+        
+    
+    
+            var marker_a1b50dd4eb5dc4ea2726739ce5a17322 = L.marker(
+                [39.05106862, -108.0625522],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_cc33a70a38b21ec73072d68d636ef7b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9dbc16e0dbd6224e22b882495942a0f = $(`<div id="html_a9dbc16e0dbd6224e22b882495942a0f" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-03-28T07:15</div>`)[0];
+                popup_cc33a70a38b21ec73072d68d636ef7b7.setContent(html_a9dbc16e0dbd6224e22b882495942a0f);
+            
+        
+
+        marker_a1b50dd4eb5dc4ea2726739ce5a17322.bindPopup(popup_cc33a70a38b21ec73072d68d636ef7b7)
+        ;
+
+        
+    
+    
+            var marker_4a1e750fb45fb0e70442707a49c9b6eb = L.marker(
+                [39.04487444, -108.0634213],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_a80f52182d65e6c6b60fe17ed208e878 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30800978dd3ebea85530ef7f1b34522c = $(`<div id="html_30800978dd3ebea85530ef7f1b34522c" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-03-28T14:30</div>`)[0];
+                popup_a80f52182d65e6c6b60fe17ed208e878.setContent(html_30800978dd3ebea85530ef7f1b34522c);
+            
+        
+
+        marker_4a1e750fb45fb0e70442707a49c9b6eb.bindPopup(popup_a80f52182d65e6c6b60fe17ed208e878)
+        ;
+
+        
+    
+    
+            var marker_b09bb73d6e76f24c5cf45f65ac47f860 = L.marker(
+                [39.05097399, -108.0627295],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_fb5b6324a084e77b8f6148f6ca7542fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddc389ed21ffc5c67520c6b223aa1e21 = $(`<div id="html_ddc389ed21ffc5c67520c6b223aa1e21" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-04-01T09:00</div>`)[0];
+                popup_fb5b6324a084e77b8f6148f6ca7542fa.setContent(html_ddc389ed21ffc5c67520c6b223aa1e21);
+            
+        
+
+        marker_b09bb73d6e76f24c5cf45f65ac47f860.bindPopup(popup_fb5b6324a084e77b8f6148f6ca7542fa)
+        ;
+
+        
+    
+    
+            var marker_d78ef6e8f30df27a0e183ab7a426b43c = L.marker(
+                [39.05089416, -108.062779],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_ee7756d977eb92837386de6f9a7355e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eb60fe97f577ec7af23dc82a880897b = $(`<div id="html_1eb60fe97f577ec7af23dc82a880897b" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-04-01T15:35</div>`)[0];
+                popup_ee7756d977eb92837386de6f9a7355e6.setContent(html_1eb60fe97f577ec7af23dc82a880897b);
+            
+        
+
+        marker_d78ef6e8f30df27a0e183ab7a426b43c.bindPopup(popup_ee7756d977eb92837386de6f9a7355e6)
+        ;
+
+        
+    
+    
+            var marker_499ec09e412a5cfbcf2cb29bd07a1284 = L.marker(
+                [39.04460562, -108.0634786],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_6d747a7938bf0491778dbc5899459d70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5755bbf3209ca32a5933221157cedc62 = $(`<div id="html_5755bbf3209ca32a5933221157cedc62" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-04-18T12:17</div>`)[0];
+                popup_6d747a7938bf0491778dbc5899459d70.setContent(html_5755bbf3209ca32a5933221157cedc62);
+            
+        
+
+        marker_499ec09e412a5cfbcf2cb29bd07a1284.bindPopup(popup_6d747a7938bf0491778dbc5899459d70)
+        ;
+
+        
+    
+    
+            var marker_dbc1d0b4ce175109a1ea2ce0e729e25e = L.marker(
+                [39.04519722, -108.0626454],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_8c6a0c96c19c867fd7f40c5c0f9172eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_556c09a280516b4d4b83363f95fe9238 = $(`<div id="html_556c09a280516b4d4b83363f95fe9238" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-04-21T07:26</div>`)[0];
+                popup_8c6a0c96c19c867fd7f40c5c0f9172eb.setContent(html_556c09a280516b4d4b83363f95fe9238);
+            
+        
+
+        marker_dbc1d0b4ce175109a1ea2ce0e729e25e.bindPopup(popup_8c6a0c96c19c867fd7f40c5c0f9172eb)
+        ;
+
+        
+    
+    
+            var marker_1c365e7cdf681b923901304adf2c9b5d = L.marker(
+                [39.04271607, -108.0646429],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_d2ce700fdd350d8385798fcc1c84c596 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b07469471151c16f90df3de976e8553 = $(`<div id="html_6b07469471151c16f90df3de976e8553" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-04-21T15:07</div>`)[0];
+                popup_d2ce700fdd350d8385798fcc1c84c596.setContent(html_6b07469471151c16f90df3de976e8553);
+            
+        
+
+        marker_1c365e7cdf681b923901304adf2c9b5d.bindPopup(popup_d2ce700fdd350d8385798fcc1c84c596)
+        ;
+
+        
+    
+    
+            var marker_2a531cb547e3ae3beaf465c8b4069aed = L.marker(
+                [39.04441896, -108.0635788],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_7179195e519426a832b38ca2a5c52f7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74394ee16fa113d8c709e14c1a46b3b4 = $(`<div id="html_74394ee16fa113d8c709e14c1a46b3b4" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-04-22T16:18</div>`)[0];
+                popup_7179195e519426a832b38ca2a5c52f7c.setContent(html_74394ee16fa113d8c709e14c1a46b3b4);
+            
+        
+
+        marker_2a531cb547e3ae3beaf465c8b4069aed.bindPopup(popup_7179195e519426a832b38ca2a5c52f7c)
+        ;
+
+        
+    
+    
+            var marker_daa8cb1cd1eb47e79ddc95a4cb989ff1 = L.marker(
+                [39.04466832, -108.0634645],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_bf7ef9350f014dd745684ed77929d10a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_335ff89c224a679fbf8228063280b645 = $(`<div id="html_335ff89c224a679fbf8228063280b645" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-05-03T06:53</div>`)[0];
+                popup_bf7ef9350f014dd745684ed77929d10a.setContent(html_335ff89c224a679fbf8228063280b645);
+            
+        
+
+        marker_daa8cb1cd1eb47e79ddc95a4cb989ff1.bindPopup(popup_bf7ef9350f014dd745684ed77929d10a)
+        ;
+
+        
+    
+    
+            var marker_ec1e3d62bb77bbba8acf83916c6233b9 = L.marker(
+                [39.04472087, -108.0634046],
+                {}
+            ).addTo(map_a6cf318a8e62916ecb36d9df22a558b8);
+        
+    
+        var popup_535d9db66491fb646249f9302cc0bd65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_888bf5c8a9b8d11e08122fe484d75e3d = $(`<div id="html_888bf5c8a9b8d11e08122fe484d75e3d" style="width: 100.0%; height: 100.0%;">Site: Skyway Tree<br>Date: 2020-05-03T17:32</div>`)[0];
+                popup_535d9db66491fb646249f9302cc0bd65.setContent(html_888bf5c8a9b8d11e08122fe484d75e3d);
+            
+        
+
+        marker_ec1e3d62bb77bbba8acf83916c6233b9.bindPopup(popup_535d9db66491fb646249f9302cc0bd65)
+        ;
+
+        
+    
+</script>
+</html>
