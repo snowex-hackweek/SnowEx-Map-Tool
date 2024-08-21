@@ -1,0 +1,46 @@
+﻿authoritative_id,major_version,title,doi,dataset state
+SNEX20_A19_GSM,1,SnowEx20 Grand Mesa Autumn 2019 Gravimetric Soil Moisture,https://doi.org/10.5067/WFY6K8NKREIV,Published
+SNEX20_A19_SD,1,SnowEx20 Grand Mesa Autumn 2019 Snow Depth,https://doi.org/10.5067/C1JYLA4YUO5X,Published
+SNEX20_A19_SP,1,SnowEx20 Grand Mesa Autumn 2019 Snow Pits,https://doi.org/10.5067/4IZGCQC1J31Q,Published
+SNEX20_A19_SWE,1,SnowEx20 Grand Mesa Autumn 2019 Snow Water Equivalent,https://doi.org/10.5067/4QTIRJQIF8E2,Published
+SNEX20_BR_BSU_SMP,1,SnowEx20 Boise River Basin SnowMicroPen (SMP) Raw Penetration Force Profiles,https://doi.org/10.5067/1SF2KW5EIGOB,Published
+SNEX20_BSU_CMP_Raw,1,SnowEx20 Grand Mesa IOP BSU Multi-polarization 1 GHz GPR CMP Raw,https://doi.org/10.5067/CL5ZRBCEF8G3,Published
+SNEX20_BSU_CMP_SWE,1,SnowEx20 Grand Mesa IOP BSU 1 GHz Multi-polarization GPR CMP Snow Water Equivalent,https://doi.org/10.5067/SOFEX3867ECJ,Published
+SNEX20_BSU_CMP_TT,1,SnowEx20 Grand Mesa IOP BSU Multi-polarization 1 GHz GPR CMP Travel-Times,https://doi.org/10.5067/SBFHOZ7F5WHS,Published
+SNEX20_BSU_GPR,1,SnowEx20 Grand Mesa IOP BSU 1 GHz Multi-polarization GPR,https://doi.org/10.5067/Q2LFK0QSVGS2,Published
+SNEX20_BSU_GPR_Raw,1,SnowEx20 Grand Mesa IOP BSU 1 GHz Multi-polarization GPR Raw,https://doi.org/10.5067/CJNEM8UDNXKA,Published
+SNEX20_COCP_GPR,1,SnowEx20 Cameron Pass Ground Penetrating Radar,https://doi.org/10.5067/U4Q3X27BMRR4,Published
+SNEX20_COCP_GPR_Raw,1,SnowEx20 Cameron Pass Ground Penetrating Radar Raw,https://doi.org/10.5067/IIJCGCVB9ZN2,Published
+SNEX20_COCP_SPD,1,SnowEx20-21 Cameron Pass Derived Snowpack Relative Permittivities and Densities from Ground Penetrating Radar,https://doi.org/10.5067/W0EJNWUZBYSL,Published
+SNEX20_CRSM,1,SnowEx20 COSMOS Rover Soil Moisture,https://doi.org/10.5067/UNXN7V6J7OM0,Published
+SNEX20_CSSM,1,SnowEx20 COSMOS Stationary Soil Moisture,https://doi.org/10.5067/WCKDBPDU85KO,Published
+SNEX20_DSM,1,SnowEx20 Grand Mesa In Situ Dielectric Soil Moisture,https://doi.org/10.5067/FWUZU0FTZKYI,Published
+SNEX20_GIS_REF,1,SnowEx20 Grand Mesa Reference GIS Data Sets,https://doi.org/10.5067/YDZXY4Q79VIJ,Published
+SNEX20_GM_CSU_GPR,1,SnowEx20 Grand Mesa IOP CSU 1GHz GPR,https://doi.org/10.5067/S5EGFLCIAB18,Published
+SNEX20_GM_CSU_GPR_RAW,1,SnowEx20 Grand Mesa IOP CSU 1GHz GPR Raw,https://doi.org/10.5067/CT6NS2LIASRS,Published
+SNEX20_GM_CTSM,1,SnowEx20 Grand Mesa IOP Computed Tomography Snow Microstructure,https://doi.org/10.5067/SO0GIXLAK2SG,Published
+SNEX20_GM_Lidar,1,SnowEx20 Grand Mesa IOP QSI Lidar Snow Depth Data,https://doi.org/10.5067/M9TPF6NWL53K,Published
+SNEX20_GM_SP,1,SnowEx20 Grand Mesa Intensive Observation Period Snow Pit Measurements,https://doi.org/10.5067/DUD2VZEVBJ7S,Published
+SNEX20_GM_SWE_SD,1,SnowEx20 Grand Mesa IOP Lidar and GPR-Derived Snow Water Equivalent and Snow Density,https://doi.org/10.5067/LANQ53RTJ2DR,Published
+SNEX20_J_UNM_GPR,1,SnowEx20 Jemez UNM 800 MHz MALA GPR,https://doi.org/10.5067/H38Q5FTBPZ8K,Published
+SNEX20_QSI_DEM,1,SnowEx20-21 QSI Lidar DEM 0.5m UTM Grid,https://doi.org/10.5067/YO583L7ZOLOO,Published
+SNEX20_QSI_DEM_3m,1,SnowEx20-21 QSI Lidar DEM 3m UTM Grid,https://doi.org/10.5067/VV382L4MQI7V,Published
+SNEX20_QSI_SD,1,SnowEx20-21 QSI Lidar Snow Depth 0.5m UTM Grid,https://doi.org/10.5067/VBUN16K365DG,Published
+SNEX20_QSI_SD_3m,1,SnowEx20-21 QSI Lidar Snow Depth 3m UTM Grid,https://doi.org/10.5067/4VO7438DP332,Published
+SNEX20_QSI_VH,1,SnowEx20-21 QSI Lidar Vegetation Height 0.5m UTM Grid,https://doi.org/10.5067/8RBIUIPEUJ7Z,Published
+SNEX20_QSI_VH_3m,1,SnowEx20-21 QSI Lidar Vegetation Height 3m UTM Grid,https://doi.org/10.5067/K67GKZQ9WUEI,Published
+SNEX20_SB_GST,1,SnowEx20 Senator Beck Basin Transect Ground Surface Temperature,https://doi.org/10.5067/85ATFFAR0SCH,Published
+SNEX20_SD,1,SnowEx20 Community Snow Depth Probe Measurements,https://doi.org/10.5067/9IA978JIACAR,Published
+SNEX20_SD_TLI,1,SnowEx20 Grand Mesa Snow Depth from Snow Pole Time-Lapse Imagery,https://doi.org/10.5067/14EU7OLF051V,Published
+SNEX20_SMP,1,SnowEx20 SnowMicroPen (SMP) Raw Penetration Force Profiles,https://doi.org/10.5067/ZYW6IHFRYDSE,Published
+SNEX20_SSA,1,SnowEx20 Laser Snow Microstructure Specific Surface Area Data,https://doi.org/10.5067/SNMM6NGGKWIT,Published
+SNEX20_SWESARR_TB,1,SnowEx20 Airborne SWESARR Brightness Temperature,https://doi.org/10.5067/IIBT502NXDNE,Published
+SNEX20_TLI,1,SnowEx20 Time-Lapse Imagery,https://doi.org/10.5067/P3D1QRH7O8X5,Published
+SNEX20_TLS_PC_BSU,1,SnowEx20 Boise State University Terrestrial Laser Scanner (TLS) Point Cloud,https://doi.org/10.5067/F0M99WK7JW4X,Published
+SNEX20_TLS_PC_BSU_RAW,1,SnowEx20 Boise State University Raw Terrestrial Laser Scanner (TLS) Point Cloud,https://doi.org/10.5067/IJG7SVZEOUTN,Published
+SNEX20_TLS_PC_CRREL,1,SnowEx20 CRREL Terrestrial Laser Scanner (TLS) Point Cloud,https://doi.org/10.5067/NJ3FFEESXVYE,Published
+SNEX20_TLS_UNAVCO,1,SnowEx20 Cameron Pass UNAVCO Terrestrial Lidar Scans,,Published
+SNEX20_TS_SP,1,SnowEx20 Time Series Snow Pit Measurements,https://doi.org/10.5067/POT9E0FFUUD1,Published
+SNEX20_TS_SP,2,SnowEx20 Time Series Snow Pit Measurements,https://doi.org/10.5067/KZ43HVLZV6G4,Published
+SNEX20_UNM_GPR,1,SnowEx20 Grand Mesa IOP UNM 800 and 1600 MHz MALA GPR,https://doi.org/10.5067/WE9GI1GVMQF6,Published
+SNEX20_VPTS_Raw,1,SnowEx20 Raw Near Surface Snow Temperature Profile Time Series,https://doi.org/10.5067/9HYQMFZP4ALB,Published
