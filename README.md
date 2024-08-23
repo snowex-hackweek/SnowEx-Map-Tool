@@ -50,12 +50,12 @@ Prior to the Hackweek, the initial idea for building this tool was to create a m
 
 * Goal 1: A data access survey was distributed to the SnowEx community, which provided greater insight into how the community accesses SnowEx data, what difficulties they having doing so, and what types of tools would improve their access to data.
 
-Desired Map-Based Tool Features:
+* * Desired Map-Based Tool Features:
       - Interactive map with zoom/pan, hover-over data type display, and color-coded data.
       - Layer control (on/off), spatial/temporal filters, and upload support for shapefiles/KMZ.
       - Connections between related datasets, dataset previews, and metadata.
 
-Pain Points:
+* * Pain Points:
       - Difficulty extracting specific data subsets
       - limited filters
       - complex database navigation
