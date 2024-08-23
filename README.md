@@ -49,22 +49,20 @@ Prior to the Hackweek, the initial idea for building this tool was to create a m
 ## Project Results
 
 * Goal 1: A data access survey was distributed to the SnowEx community, which provided greater insight into how the community accesses SnowEx data, what difficulties they having doing so, and what types of tools would improve their access to data.
-* 
-* Goal 2: Project team members increased their knowledge base in using collaborative coding tools, such at Git, Jupyter Notebooks, and CryoCloud. Methods for building the map tool were explored, and the team chose to approach the project by working to build a Jupyter notebook that links NSIDC data sets to snow pit locations using data pulled from both NDIDC and the SnowEx Database.\
-* Goal 3: The team created a protype map which locates snow pits and lables the pits with data set DOIs.
-* Goal 4: Team members would like to continue collaborating on the project post Hackweek.
 
-
-* Survey Based
-   * Desired Map-Based Tool Features:
+Desired Map-Based Tool Features:
       - Interactive map with zoom/pan, hover-over data type display, and color-coded data.
       - Layer control (on/off), spatial/temporal filters, and upload support for shapefiles/KMZ.
       - Connections between related datasets, dataset previews, and metadata.
-    * Pain Points:
+
+Pain Points:
       - Difficulty extracting specific data subsets
       - limited filters
       - complex database navigation
       - loss of search parameters
       - Need for a better GUI
-* Map Tool
-   * Created a preliminary working map that links data points to DOIs
+  
+* Goal 2: Project team members increased their knowledge base in using collaborative coding tools, such at Git, Jupyter Notebooks, and CryoCloud. Methods for building the map tool were explored, and the team chose to approach the project by working to build a Jupyter notebook that links NSIDC data sets to snow pit locations using data pulled from both NDIDC and the SnowEx Database.\
+* Goal 3: The team created a protype map which locates snow pits and lables the pits with data set DOIs.
+* Goal 4: Team members would like to continue collaborating on the project post Hackweek.
+
