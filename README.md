@@ -62,7 +62,7 @@ Prior to the Hackweek, the initial idea for building this tool was to create a m
       - loss of search parameters
       - Need for a better GUI
   
-* Goal 2: Project team members increased their knowledge base in using collaborative coding tools, such at Git, Jupyter Notebooks, and CryoCloud. Methods for building the map tool were explored, and the team chose to approach the project by working to build a Jupyter notebook that links NSIDC data sets to snow pit locations using data pulled from both NDIDC and the SnowEx Database.\
+* Goal 2: Project team members increased their knowledge base in using collaborative coding tools, such at Git, Jupyter Notebooks, and CryoCloud. Methods for building the map tool were explored, and the team chose to approach the project by working to build a Jupyter notebook that links NSIDC data sets to snow pit locations using data pulled from both NDIDC and the SnowEx Database.
 * Goal 3: The team created a protype map which locates snow pits and lables the pits with data set DOIs.
 * Goal 4: Team members would like to continue collaborating on the project post Hackweek.
 
